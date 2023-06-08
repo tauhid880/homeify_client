@@ -17,7 +17,7 @@ const BannerItem = ({ banner }) => {
               <div className="w-full max-w-xl text-white">
                 <h2 className=" mb-6 font-jost text-3xl font-semibold tracking-tight sm:text-5xl">
                   Classified platform <br></br> for Furniture {""}
-                  <span className="text-[#B1B2FF] font-extrabold">
+                  <span className="font-extrabold text-transparent bg-clip-text bg-gradient-to-r from-purple-400 to-pink-600">
                     buy & sell.
                   </span>
                 </h2>
@@ -27,7 +27,7 @@ const BannerItem = ({ banner }) => {
                 <Link
                   to="/categories"
                   aria-label=""
-                  className="inline-flex items-center font-semibold px-4 py-3 sm:px-6 sm:py-4 text-lg bg-primary sm:text-xl my-5"
+                  className="inline-flex items-center font-semibold px-4 py-3 sm:px-6 sm:py-4 text-lg bg-gradient-to-r from-purple-400 to-pink-400 hover:from-pink-400 hover:to-purple-400 sm:text-xl my-5"
                 >
                   <FaCartPlus className="mr-2"></FaCartPlus>
                   Shop Now

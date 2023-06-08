@@ -213,7 +213,7 @@ const Product = ({ product }) => {
                 });
             }}
             htmlFor={`booking-modal${_id}`}
-            className="inline-flex items-center font-semibold px-6 py-2 bg-primary hover:bg-orange-600 text-white text-lg  cursor-pointer mt-7 "
+            className="inline-flex items-center font-semibold px-6 py-2 bg-gradient-to-r from-purple-400 to-pink-400 hover:from-pink-400 hover:to-purple-400 text-white text-lg  cursor-pointer mt-7 "
           >
             <FaCartPlus className="mr-2"></FaCartPlus>
             Book Now
